@@ -133,7 +133,7 @@ function Pnf() {
               repeat: Infinity
             }}
           >
-            <img width={'150px'} className='mt-20' src="/public/ultra zero.png" alt="" />
+            <img width={'150px'} className='mt-20' src="/ultra zero.png" alt="" />
 
           </motion.div>
           
@@ -163,7 +163,7 @@ function Pnf() {
               repeat: Infinity
             }}
           >
-            <img width={'200px'} className='mt-20' src="/public/drink-photoroom.png" alt="" />
+            <img width={'200px'} className='mt-20' src="/drink-photoroom.png" alt="" />
 
           </motion.div>
         </motion.div>

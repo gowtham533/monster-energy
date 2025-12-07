@@ -9,7 +9,7 @@ const products = [
     name: 'Original Green',
     description: 'The flavor that started it all. Bold, refreshing, and unstoppable.',
     color: '#52d452',
-    image: 'public/drink-photoroom.png',
+    image: '/drink-photoroom.png',
     gradient: 'linear-gradient(135deg, #1a3300 0%, #4d9900 100%)'
   },
   {
@@ -17,7 +17,7 @@ const products = [
     name: 'Ultra Paradise',
     description: 'Zero sugar, maximum flavor. Tropical paradise in every sip.',
     color: '#00b4d8',
-    image: 'public/paradise-photoroom.png',
+    image: '/paradise-photoroom.png',
     gradient: 'linear-gradient(135deg, #00334d 0%, #00b4d8 100%)'
   },
   {
@@ -25,7 +25,7 @@ const products = [
     name: 'Pipeline Punch',
     description: 'Passion fruit, orange, and guava. The perfect punch.',
     color: '#ff006e',
-    image: 'public/pipeline punch.png',
+    image: '/pipeline punch.png',
     gradient: 'linear-gradient(135deg, #1a0000 0%, #4d0000 100%)'
   },
   {
@@ -33,7 +33,7 @@ const products = [
   name: 'Zero Ultra',
   description: 'Bold, deep flavor with zero sugar for the ultimate blackout.',
   color: '#ffffff', 
-  image: 'public/ultra zero.png',
+  image: '/ultra zero.png',
   gradient: 'linear-gradient(135deg, #1a1a1a 0%, #4d4d4d 100%)'
   },
   {
@@ -41,7 +41,7 @@ const products = [
     name: 'Ultra Violet',
     description: 'Smooth violet flavor with an energizing kick.',
     color: '#7f00ff',
-    image: 'public/violet-photoroom.png',
+    image: '/violet-photoroom.png',
     gradient: 'linear-gradient(135deg, #330066 0%, #7f00ff 100%)'
   },
   {
@@ -49,7 +49,7 @@ const products = [
     name: 'Ultra Blue',
     description: 'Refreshing blue flavor to power through your day.',
     color: '#007bff',
-    image: 'public/ultra blue.png',
+    image: '/ultra blue.png',
     gradient: 'linear-gradient(135deg, #001a33 0%, #007bff 100%)'
   },
   {
@@ -57,7 +57,7 @@ const products = [
     name: 'Ultra Red',
     description: 'Intense red flavor that ignites your energy.',
     color: '#ff0000',
-    image: 'public/ultra red.png',
+    image: '/ultra red.png',
     gradient: 'linear-gradient(135deg, #330000 0%, #ff0000 100%)'
   },
   {
@@ -65,7 +65,7 @@ const products = [
     name: 'Ultra Sunrise',
     description: 'Orange sunrise flavor for a vibrant start.',
     color: '#ff7f00',
-    image: 'public/sunrise.png',
+    image: '/sunrise.png',
     gradient: 'linear-gradient(135deg, #663300 0%, #ff7f00 100%)'
   },
   {
@@ -73,7 +73,7 @@ const products = [
     name: 'Ultra Rosa',
     description: 'Delicate pink flavor with a subtle sweetness.',
     color: '#ff66b2',
-    image: 'public/ultra rosa.png',
+    image: '/ultra rosa.png',
     gradient: 'linear-gradient(135deg, #660033 0%, #ff66b2 100%)'
   },
   {
@@ -81,7 +81,7 @@ const products = [
     name: 'Lo Care Blue',
     description: 'Low-carb blue flavor for a refreshing boost without the sugar.',
     color: '#1E90FF', 
-    image: 'public/lo care-photoroom.png',
+    image: '/lo care-photoroom.png',
     gradient: 'linear-gradient(135deg, #001a33 0%, #1E90FF 100%)'
   },
   {
@@ -89,7 +89,7 @@ const products = [
     name: 'Mango Loco',
     description: 'Tropical mango flavor with a wild twist.',
     color: '#FFD700', 
-    image: 'public/mango.png',
+    image: '/mango.png',
     gradient: 'linear-gradient(135deg, #665500 0%, #FFD700 100%)'
   },
   {
@@ -97,7 +97,7 @@ const products = [
     name: 'Rehab Lemonade Tea',
     description: 'Refreshing lemonade tea flavor to revive your senses.',
     color: '#FACC15', 
-    image: 'public/rehab.png',
+    image: '/rehab.png',
     gradient: 'linear-gradient(135deg, #665500 0%, #FACC15 100%)'
   }
 ];

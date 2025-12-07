@@ -19,7 +19,7 @@ function Events() {
       category: 'MOTORSPORTS',
       date: 'March 15, 2025',
       location: 'Circuit of the Americas, Austin',
-      image: 'https://images.unsplash.com/photo-1558980664-1db506751c6c?w=1200',
+      image: '/carousel 1.jpeg',
       color: '#52d452',
       description: 'Experience the thrill of MotoGP racing with Monster Energy. Watch as the worlds best riders compete at breakneck speeds.'
     },
@@ -29,7 +29,7 @@ function Events() {
       category: 'MOTORSPORTS',
       date: 'April 8, 2025',
       location: 'MetLife Stadium, New Jersey',
-      image: 'https://images.unsplash.com/photo-1558980664-769d59546b3d?w=1200',
+      image: '/carousel 2.jpeg',
       color: '#00b4d8',
       description: 'The most competitive supercross championship returns. Witness incredible jumps and intense racing action.'
     },
@@ -39,7 +39,7 @@ function Events() {
       category: 'MUSIC',
       date: 'May 20, 2025',
       location: 'Hollywood Bowl, Los Angeles',
-      image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=1200',
+      image: '/carousel 3.jpeg',
       color: '#ff006e',
       description: 'Live performances from top artists. Experience the ultimate music festival powered by Monster Energy.'
     },
@@ -49,7 +49,7 @@ function Events() {
       category: 'MOTORSPORTS',
       date: 'June 5, 2025',
       location: 'Daytona International Speedway',
-      image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1200',
+      image: '/carousel 4.jpeg',
       color: '#ff9500',
       description: 'High-speed NASCAR action sponsored by Monster. Feel the roar of engines and the thrill of competition.'
     },
@@ -59,7 +59,7 @@ function Events() {
       category: 'GAMING',
       date: 'July 12, 2025',
       location: 'Online & Las Vegas Convention Center',
-      image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200',
+      image: '/carousel 5.jpeg',
       color: '#52d452',
       description: 'Elite gaming competition with massive prizes. Watch pro gamers battle for glory and Monster Energy glory.'
     },
@@ -69,7 +69,7 @@ function Events() {
       category: 'EXTREME',
       date: 'August 18, 2025',
       location: 'Venice Beach, California',
-      image: 'https://images.unsplash.com/photo-1558980664-c9c89c7e6db0?w=1200',
+      image: '/carousel 6.jpeg',
       color: '#00b4d8',
       description: 'Watch the best BMX riders compete for glory. Incredible tricks, massive air, pure adrenaline.'
     }

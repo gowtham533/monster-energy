@@ -8,16 +8,16 @@ function InteractiveCards() {
   const [active, setActive] = useState(4);
 
   const cards = [
-    { id: 1, img: "/public/rehab.png", name: "REHAB TEA" },
-    { id: 2, img: "/public/ultra zero.png", name: "ULTRA ZERO" },
-    { id: 3, img: "/public/ultra red.png", name: "ULTRA RED" },
-    { id: 4, img: "/public/ultra blue.png", name: "ULTRA BLUE" },
-    { id: 5, img: "/public/drink-photoroom.png", name: "MONSTER ORIGINAL" },
-    { id: 6, img: "/public/pipeline punch.png", name: "PIPELINE PUNCH" },
-    { id: 7, img: "/public/paradise-photoroom.png", name: "ULTRA PARADISE" },
-    { id: 8, img: "/public/mango.png", name: "MANGO LOCO" },
-    { id: 9, img: "/public/lo care-photoroom.png", name: "LO-CARB" },
-    { id: 10, img: "/public/violet-photoroom.png", name: "ULTRA VIOLET" },
+    { id: 1, img: "/rehab.png", name: "REHAB TEA" },
+    { id: 2, img: "/ultra zero.png", name: "ULTRA ZERO" },
+    { id: 3, img: "/ultra red.png", name: "ULTRA RED" },
+    { id: 4, img: "/ultra blue.png", name: "ULTRA BLUE" },
+    { id: 5, img: "/drink-photoroom.png", name: "MONSTER ORIGINAL" },
+    { id: 6, img: "//pipeline punch.png", name: "PIPELINE PUNCH" },
+    { id: 7, img: "/paradise-photoroom.png", name: "ULTRA PARADISE" },
+    { id: 8, img: "/mango.png", name: "MANGO LOCO" },
+    { id: 9, img: "/lo care-photoroom.png", name: "LO-CARB" },
+    { id: 10, img: "/violet-photoroom.png", name: "ULTRA VIOLET" },
   ];
 
   return (
@@ -137,7 +137,7 @@ function Home() {
                 filter: 'drop-shadow(0 0 40px rgba(82, 212, 82, 0.8))'
               }}
             >
-              <img width={'200px'} className='mt-20' src="/public/ultra zero.png" alt="" />
+              <img width={'90px'} className='mt-20 me-20' src="/ultra zero.png" alt="" />
             </div>
             <div
               className="text-9xl transform"
@@ -146,7 +146,7 @@ function Home() {
                 filter: 'drop-shadow(0 0 40px rgba(82, 212, 82, 0.8))'
               }}
             >
-              <img width={'250px'} className='mt-20' src="/public/drink-photoroom.png" alt="" />
+              <img width={'250px'} className='mt-20' src="/drink-photoroom.png" alt="" />
             </div>
             <div
               className="text-9xl transform"
@@ -155,7 +155,7 @@ function Home() {
                 filter: 'drop-shadow(0 0 40px rgba(82, 212, 82, 0.8))'
               }}
             >
-              <img width={'200px'} className='mt-20' src="/public/ultra red.png" alt="" />
+              <img width={'200px'} className='mt-20' src="/ultra red.png" alt="" />
             </div>
             
             {/* Splash Effect */}
@@ -504,9 +504,9 @@ function Home() {
         <div className="container mx-auto px-8 z-10 relative">
           <div className="grid md:grid-cols-3 gap-8">
   {[
-    { name: 'DRAGON', image: '/public/dragon.png', colorClass: 'text-pink-400' },
-    { name: 'COTTON CANDY', image: '/public/cotton.png', colorClass: 'text-blue-400' },
-    { name: 'RIO', image: '/public/rio.png', colorClass: 'text-yellow-400' },
+    { name: 'DRAGON', image: '/dragon.png', colorClass: 'text-pink-400' },
+    { name: 'COTTON CANDY', image: '/cotton.png', colorClass: 'text-blue-400' },
+    { name: 'RIO', image: '/rio.png', colorClass: 'text-yellow-400' },
   ].map((flavor, idx) => (
     <div
       key={idx}
