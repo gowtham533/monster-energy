@@ -9,6 +9,8 @@ import EventHeader from './components/EventHeader'
 import FlavourHeader from './components/FlavourHeader'
 import ProductHeader from './components/ProductHeader'
 import Events from './pages/Events'
+import Pnf from './pages/Pnf'
+import PnfHeader from './components/PnfHeader'
 
 function App() {
   const location = useLocation()
@@ -20,6 +22,7 @@ function App() {
   if (path === '/') return <Header />;
   if (path === '/flavours') return <FlavourHeader />;
   if (path === '/events') return <EventHeader />;
+  if (path === '/*') return <PnfHeader/>
   if (path.startsWith('/product/') && path.endsWith('/view')) return <ProductHeader />;
 
   return <Header />;
@@ -34,6 +37,8 @@ function App() {
         <Route path='/flavours' element={<Flavours/>}/>
         <Route path='/product/:id/view' element={<ProductView />} />
         <Route path='/events' element={<Events/>}/>
+        <Route path='/*' element={<Pnf/>}/>
+
       </Routes>
       <Footer/>
     </>
