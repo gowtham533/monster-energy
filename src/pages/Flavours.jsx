@@ -18,7 +18,7 @@ function Flavours() {
     name: 'Original Green',
     description: 'The flavor that started it all. Bold, refreshing, and unstoppable.',
     color: '#52d452',
-    image: 'public/drink-photoroom.png',
+    image: '/drink-photoroom.png',
     gradient: 'linear-gradient(135deg, #1a3300 0%, #4d9900 100%)'
   },
   {
@@ -26,7 +26,7 @@ function Flavours() {
     name: 'Ultra Paradise',
     description: 'Zero sugar, maximum flavor. Tropical paradise in every sip.',
     color: '#00b4d8',
-    image: 'public/paradise-photoroom.png',
+    image: '/paradise-photoroom.png',
     gradient: 'linear-gradient(135deg, #00334d 0%, #00b4d8 100%)'
   },
   {
