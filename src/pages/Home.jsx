@@ -9,16 +9,16 @@ function InteractiveCards() {
 
   const cards = [
     { id: 1, img: "/rehab.png", name: "REHAB TEA" },
-    { id: 2, img: "/ultra-zero.png", name: "ULTRA ZERO" },
-    { id: 3, img: "/ultra-red.png", name: "ULTRA RED" },
-    { id: 4, img: "/ultra-blue.png", name: "ULTRA BLUE" },
+    { id: 2, img: "/ultra zero.png", name: "ULTRA ZERO" },
+    { id: 3, img: "/ultra red.png", name: "ULTRA RED" },
+    { id: 4, img: "/ultra blue.png", name: "ULTRA BLUE" },
     { id: 5, img: "/drink-photoroom.png", name: "MONSTER ORIGINAL" },
-    { id: 6, img: "/pipeline-punch.png", name: "PIPELINE PUNCH" },
+    { id: 6, img: "/pipeline punch.png", name: "PIPELINE PUNCH" },
     { id: 7, img: "/paradise-photoroom.png", name: "ULTRA PARADISE" },
     { id: 8, img: "/mango.png", name: "MANGO LOCO" },
-    { id: 9, img: "/lo-care-photoroom.png", name: "LO-CARB" },
+    { id: 9, img: "/lo care-photoroom.png", name: "LO-CARB" },
     { id: 10, img: "/violet-photoroom.png", name: "ULTRA VIOLET" },
-];
+  ];
 
   return (
     <div className="relative flex justify-center items-center h-[450px]">
