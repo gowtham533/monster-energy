@@ -52,7 +52,7 @@ function EventHeader() {
               textShadow: '0 0 20px #52d452, 0 0 40px #52d452'
             }}
           >
-            <img width={'80px'} className='ms-10' src="/public/monster logo.png" alt="" />
+            <img width={'80px'} className='ms-10' src="/monster logo.png" alt="" />
           </motion.div>
         </motion.div>
 

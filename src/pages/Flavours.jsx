@@ -45,6 +45,7 @@ function Flavours() {
   image: 'public/ultra zero.png',
   gradient: 'linear-gradient(135deg, #1a1a1a 0%, #4d4d4d 100%)'
   },
+  
   {
     id: 5,
     name: 'Ultra Violet',
